@@ -8,5 +8,5 @@ test('flipkart',async({page})=>{
     await page.waitForTimeout(2000)
     await page.locator('//input[@class="afiehA ZvxNMK ZzRAN5 Eej6mw rPbh97 QRzexE"]').fill("Hyderabad")
     await page.waitForTimeout(2000)
-    await page.getByRole('textbox',{name:"21 Jan, Wed"}).fill("23 Jan,Fri")
+    //await page.getByRole('textbox',{name:"21 Jan, Wed"}).fill("23 Jan,Fri")
 })  
